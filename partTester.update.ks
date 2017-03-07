@@ -3,10 +3,8 @@
 	
 wait 3.
 	
-NOTIFY("Starting PartTest").
+NOTIFY("Starting Science").
 	
-REQUIRE("FindParts.ks").
-//REQUIRE("parts.ks").
+REQUIRE("science.ks").
 
-log_parts_and_modules().
-//ListScienceModules().
+collect_science().
