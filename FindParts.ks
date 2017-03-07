@@ -11,13 +11,15 @@ FOR P IN SHIP:PARTS{
 FOR M IN P:MODULES{
 
 		set mod to P:GETMODULE(M).
+		LOG "Mod name: " + mod:NAME TO "0:/Partlog.txt".
+
 		LOG "ALL EVENT NAMES:" TO "0:/Partlog.txt".
 
-		LOG mod :ALLEVENTNAMES TO "0:/Partlog.txt".
+		LOG mod:ALLEVENTNAMES TO "0:/Partlog.txt".
 
 		LOG "ALL ACTION NAMES:" TO "0:/Partlog.txt".
 
-		LOG mod :ALLACTIONNAMES TO "0:/Partlog.txt".
+		LOG mod:ALLACTIONNAMES TO "0:/Partlog.txt".
 
 	}
 	}.

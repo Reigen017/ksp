@@ -6,7 +6,7 @@ function deployChutes{
 	}
 }
 
-declare function ListScienceModules {
+function ListScienceModules {
     declare local scienceModules to list().
     declare local partList to ship:parts.
 

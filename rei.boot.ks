@@ -72,9 +72,10 @@ FUNCTION REQUIRE {
   
   IF NOT HAS_FILE(name, 1) { INCLUDE(name). }
   IF HAS_FILE(name, 1)  {
-    movepath(name,"tmp.exec.ks").
-    RUN tmp.exec.ks.
-    movepath("tmp.exec.ks",name).
+    run name.
+    //movepath(name,"tmp.exec.ks").
+    //RUN tmp.exec.ks.
+    //movepath("tmp.exec.ks",name).
   }
   else{
     notify("Requirement failed").
