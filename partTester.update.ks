@@ -1,10 +1,9 @@
 // Part Test
 
 	
-wait 3.
+wait 30.
 	
-NOTIFY("Starting Science").
+NOTIFY("Slamming").
 	
-REQUIRE("science.ks").
 
-collect_science().
+runpath("HoverSlam.ks").
