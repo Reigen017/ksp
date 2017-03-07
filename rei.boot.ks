@@ -71,9 +71,15 @@ FUNCTION REQUIRE {
   PARAMETER name.
   
   IF NOT HAS_FILE(name, 1) { INCLUDE(name). }
-  movepath(name,"tmp.exec.ks").
-  RUN tmp.exec.ks.
-  movepath("tmp.exec.ks",name).
+  IF HAS_FILE(name, 1)  {
+    movepath(name,"tmp.exec.ks").
+    RUN tmp.exec.ks.
+    movepath("tmp.exec.ks",name).
+  }
+  else{
+    notify("Requirement failed").
+  }
+
 }
 
 // THE ACTUAL BOOTUP PROCESS
