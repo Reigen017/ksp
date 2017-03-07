@@ -1,941 +1,2230 @@
-MODULES FOR PART NAMED mk1pod (partTester)
+MODULES FOR PART NAMED mk1pod
+Mod name: ModuleCommand
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "control from here"
 [1] = "rename vessel"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle hibernation"
+Mod name: ModuleReactionWheel
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "toggle torque"
+ALL ACTION NAMES:
+LIST of 4 items:
+[0] = "cycle wheel mode"
+[1] = "activate wheel"
+[2] = "deactivate wheel"
+[3] = "toggle rw"
+Mod name: ModuleColorChanger
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "lights on"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle lights"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "crew report"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "crew report"
+[1] = "discard crew report"
+Mod name: ModuleScienceContainer
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "collect all"
+Mod name: FlagDecal
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleConductionMultiplier
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleDataTransmitter
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "transmit data"
+Mod name: ModuleLiftingSurface
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleLogisticsConsumer
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYA_SAS
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "deactivate all sas"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewAssignment
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleConnectedLivingSpace
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleControllableEmissive
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewIndicatorToggle
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 3 items:
+[0] = "toggle crew leds"
+[1] = "activate crew leds"
+[2] = "deactivate crew leds"
+Mod name: ModuleCrewIndicator
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: RasterPropMonitorComputer
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYCrewPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ExWorkshop
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: LogisticsModule
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "plug into network"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: kOSProcessor
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "open terminal"
 [1] = "toggle power"
+ALL ACTION NAMES:
+LIST of 4 items:
+[0] = "open terminal"
+[1] = "close terminal"
+[2] = "toggle terminal"
+[3] = "toggle power"
+Mod name: ESLDHailer
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "initialize hailer"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SCANRPMStorage
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "crew report"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "crew report"
+[1] = "discard crew report"
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TrajectoriesVesselSettings
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleTweakableFuelPump
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 3 items:
+[0] = "enable monopropellant pump"
+[1] = "disable monopropellant pump"
+[2] = "toggle monopropellant pump"
+Mod name: ModuleTweakableReactionWheel
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleLifeSupport
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleFieldRepair
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: MechJebCore
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 15 items:
+[0] = "orbit prograde"
+[1] = "orbit retrograde"
+[2] = "orbit normal"
+[3] = "orbit antinormal"
+[4] = "orbit radial in"
+[5] = "orbit radial out"
+[6] = "orbit kill rotation"
+[7] = "deactivate smartacs"
+[8] = "panic!"
+[9] = "translatron off"
+[10] = "translatron keep vert"
+[11] = "translatron zero speed"
+[12] = "translatron +1 speed"
+[13] = "translatron -1 speed"
+[14] = "translatron toggle h/s"
+Mod name: ModulekOSVoidAction
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "script trigger"
+Mod name: RCSLandingAidModule
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: GroundWorkshop
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "construction window"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: OneTimeResourceConverter
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "old gc resources"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleTripLogger
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISInventory
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "jebediah's inventory"
+ALL ACTION NAMES:
+LIST of 0 items:
+
 MODULES FOR PART NAMED 3sat.science.small
+Mod name: ModuleEnviroSensor
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "toggle display"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle display"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "log seismic data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "log seismic data"
+[1] = "delete data"
+Mod name: ModuleEnviroSensor
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "toggle display"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle display"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "log seismic data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "log seismic data"
+[1] = "delete data"
+Mod name: ModuleEnviroSensor
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "toggle display"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle display"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "log seismic data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "log seismic data"
+[1] = "delete data"
+Mod name: ModuleEnviroSensor
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "toggle display"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle display"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "log seismic data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "log seismic data"
+[1] = "delete data"
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "log seismic data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "log seismic data"
+[1] = "delete data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED US.1C10.Wedge.Quadcore
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISPartMount
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "release"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "release"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED dmUSMagBoom
+Mod name: ModuleResourceScanner
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: DMModuleScienceAnimate
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "toggle magnetometer"
 [1] = "log magnetometer data"
+ALL ACTION NAMES:
+LIST of 5 items:
+[0] = "deploy magnetometer"
+[1] = "retract magnetometer"
+[2] = "toggle magnetometer"
+[3] = "log magnetometer data"
+[4] = "discard magnetometer data"
+Mod name: DMMagBoomModule
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItemEvaTweaker
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleSCANresourceScanner
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 7 items:
+[0] = "start ore scan"
+[1] = "stop ore scan"
+[2] = "toggle ore scan"
+[3] = "start ore scan"
+[4] = "stop ore scan"
+[5] = "toggle ore scan"
+[6] = "analyze data"
+Mod name: SCANresourceDisplay
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED dmUSGoo
+Mod name: DMModuleScienceAnimate
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "toggle goo bay doors"
 [1] = "observe mystery goo"
+ALL ACTION NAMES:
+LIST of 5 items:
+[0] = "open goo bay"
+[1] = "close goo bay"
+[2] = "toggle goo bay doors"
+[3] = "observe mystery goo"
+[4] = "reset goo canister"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItemEvaTweaker
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED USRPWS
+Mod name: DMModuleScienceAnimate
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "toggle rpws"
 [1] = "log radio plasma wave data"
+ALL ACTION NAMES:
+LIST of 5 items:
+[0] = "deploy rpws"
+[1] = "retract rpws"
+[2] = "toggle rpws"
+[3] = "log radio plasma wave data"
+[4] = "discard data"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItemEvaTweaker
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED dmUSMat
+Mod name: DMModuleScienceAnimate
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "toggle materials bay doors"
 [1] = "observe materials bay"
+ALL ACTION NAMES:
+LIST of 5 items:
+[0] = "open materials bay"
+[1] = "close materials bay"
+[2] = "toggle materials bay doors"
+[3] = "observe materials bay"
+[4] = "reset materials bay"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItemEvaTweaker
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED ServiceBay.125
+Mod name: ModuleAnimateGeneric
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "open"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle"
+Mod name: ModuleCargoBay
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleSeeThroughObject
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleConductionMultiplier
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYA_CargoBay
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "close all bays"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED ScienceBox
+Mod name: ModuleConductionMultiplier
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleScienceContainer
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "collect all"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYA_ScienceBox
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "reset all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleControllableEmissive
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleScienceContainerIndicator
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.04
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record aeronomical data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record aeronomical data"
+[1] = "reset aeronomical data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.04
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record aeronomical data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record aeronomical data"
+[1] = "reset aeronomical data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.02
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record test data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record test data"
+[1] = "reset test data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.02
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record test data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record test data"
+[1] = "reset test data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.01
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record materials data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record materials data"
+[1] = "reset materials data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.01
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record materials data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record materials data"
+[1] = "reset materials data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.03
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record meteorological data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record meteorological data"
+[1] = "reset meteorological data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED SR.Payload.03
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "record meteorological data"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "record meteorological data"
+[1] = "reset meteorological data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleCrewRequirement
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED sensorBeep
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "test alive beep"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "test alive beep"
+[1] = "delete data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED sensorBeep
+Mod name: ModuleScienceExperiment
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "test alive beep"
+ALL ACTION NAMES:
+LIST of 2 items:
+[0] = "test alive beep"
+[1] = "delete data"
+Mod name: AYA_Science
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "perform all science"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED dmBathymetry
+Mod name: DMBathymetry
 ALL EVENT NAMES:
 LIST of 3 items:
 [0] = "turn lights on"
 [1] = "toggle"
 [2] = "collect bathymetry data"
+ALL ACTION NAMES:
+LIST of 8 items:
+[0] = "toggle lights"
+[1] = "turn lights on"
+[2] = "turn lights off"
+[3] = "deploy"
+[4] = "retract"
+[5] = "toggle"
+[6] = "collect bathymetry data"
+[7] = "discard data"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItem
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED dmBathymetry
+Mod name: DMBathymetry
 ALL EVENT NAMES:
 LIST of 3 items:
 [0] = "turn lights on"
 [1] = "toggle"
 [2] = "collect bathymetry data"
+ALL ACTION NAMES:
+LIST of 8 items:
+[0] = "toggle lights"
+[1] = "turn lights on"
+[2] = "turn lights off"
+[3] = "deploy"
+[4] = "retract"
+[5] = "toggle"
+[6] = "collect bathymetry data"
+[7] = "discard data"
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleKISItem
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED Engineer7500
+Mod name: FlightEngineerModule
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "verbose simulation log"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TapeDriveAnimator
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED HighGainAntenna5
+Mod name: ModuleDeployableAntenna
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "extend antenna"
+ALL ACTION NAMES:
+LIST of 3 items:
+[0] = "toggle antenna"
+[1] = "extend antenna"
+[2] = "retract antenna"
+Mod name: ModuleDataTransmitter
 ALL EVENT NAMES:
 LIST of 2 items:
 [0] = "transmit data"
 [1] = "require complete"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "transmit data"
+Mod name: AYA_Antenna
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "extend all antennae"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TagAntenna
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleControllableEmissive
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleDataTransmitterIndicator
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ESLDHailer
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "initialize hailer"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionInfo
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleTripLogger
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
 MODULES FOR PART NAMED Heatshield-M
+Mod name: ModuleToggleCrossfeed
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "enable crossfeed"
+ALL ACTION NAMES:
+LIST of 3 items:
+[0] = "toggle crossfeed"
+[1] = "enable crossfeed"
+[2] = "disable crossfeed"
+Mod name: ModuleJettison
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "jettison shroud"
+Mod name: ModuleDecouple
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "decouple"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "decouple"
+Mod name: ModuleAnimateGeneric
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "extend gear"
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle landing gear"
+Mod name: ModuleAblator
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleLiftingSurface
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleColorChanger
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 1 items:
+[0] = "toggle color"
+Mod name: ModuleTestSubject
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: PartTemperatureState
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: ModuleAGX
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: AYPart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: USI_ModuleRecycleablePart
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: tjs_DecouplerLight
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: TweakScale
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KOSNameTag
 ALL EVENT NAMES:
 LIST of 1 items:
 [0] = "change name tag"
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SmartRename
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: SectionSplitter
 ALL EVENT NAMES:
 LIST of 0 items:
 
+ALL ACTION NAMES:
+LIST of 0 items:
+
+Mod name: KJRDecouplerReinforcementModule
 ALL EVENT NAMES:
+LIST of 0 items:
+
+ALL ACTION NAMES:
 LIST of 0 items:
 
