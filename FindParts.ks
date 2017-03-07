@@ -2,13 +2,22 @@
 function log_parts_and_modules {
 
 
-FOR P IN SHIP:SHIP:PARTS{
+FOR P IN SHIP:PARTS{
 
 	print "MODULES FOR PART NAMED " + P:NAME.
 	LOG ("MODULES FOR PART NAMED " + P:NAME) TO "0:/Partlog.txt".
 	
-	LOG P:MODULES TO "0:/Partlog.txt".
 	
+FOR M IN P:MODULES{
+
+	LOG "ALL EVENT NAMES:" TO "0:/Partlog.txt".
+
+	LOG M:ALLEVENTNAMES TO "0:/Partlog.txt".
+
+	LOG "ALL ACTION NAMES:" TO "0:/Partlog.txt".
+
+	LOG M:ALLACTIONNAMES TO "0:/Partlog.txt".
+
 	}.
 
 }
