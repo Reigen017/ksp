@@ -36,6 +36,16 @@ FUNCTION DELAY {
   }
 }
 
+// Get a file from KSC/lib
+FUNCTION INCLUDE {
+  PARAMETER name.
+
+  NOTIFY("Downloading " + name).
+  IF HAS_FILE("lib/" + name, 0) {
+    COPYPATH(FULL_PATH("lib/" + name, 0),"").
+  }
+}
+
 // Get a file from KSC
 FUNCTION DOWNLOAD {
   PARAMETER name.
@@ -60,7 +70,7 @@ FUNCTION UPLOAD {
 FUNCTION REQUIRE {
   PARAMETER name.
   
-  IF NOT HAS_FILE(name, 1) { DOWNLOAD(name). }
+  IF NOT HAS_FILE(name, 1) { INCLUDE(name). }
   movepath(name,"tmp.exec.ks").
   RUN tmp.exec.ks.
   movepath("tmp.exec.ks",name).
